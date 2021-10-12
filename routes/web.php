@@ -27,6 +27,6 @@ Route::view('/about','v_about',[
     'alamat' => 'Tanjungsari'
 ]);
 
-Route::view('/admin','admin.v_index');
+//Route::view('/admin','admin.v_index');
 
 Route::view('/guru','admin.guru.v_dataguru');
